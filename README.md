@@ -1,2 +1,7 @@
 # Q4-AVII-SO
 Questão 04 da Avaliação II da disciplina Sistemas Operacionais - IFBA/ 2021.2
+
+O problema pode ser descrito como uma analogia a uma barbearia com um barbeiro. A barbearia possui uma cadeira para corte de cabelo e uma sala de espera com um número determinado de cadeiras (vamos assumir 05 cadeiras de espera). Quando o barbeiro finaliza o corte de cabelo de um cliente.
+Ele libera o cliente e vai até a sala de espera para ver se há algum cliente esperando. Se houver, ele traz consigo um dos clientes corta o seu cabelo. Caso contrário, então ele volta para a cadeira de corte para dormir. Quando um cliente chega à barbearia ele olha o que o barbeiro está fazendo. Se o barbeiro estiver dormindo, ele o acorda e senta na cadeira. Se o barbeiro estiver trabalhando então o cliente vai para a sala de espera. Caso exista uma cadeira livre na sala de espera então ele senta e aguarda sua vez, Caso contrário, então o cliente vai embora.  
+Faça o esboço de uma solução para este problema usando pseudocódigo, que faça o uso de threads e semáforos para controlar o acesso a região crítica. A solução não deve permitir cenários de starvation (inanição) ou deadlock (impasse). Opcionalmente, vocês podem usar alguma linguagem de programação em sua resposta.  
+Não é necessário detalhar todos os aspectos da implementação. Concentrem-se em demonstrar o uso de semáforos, a criação das threads e dos mecanismos de sincronização.
